@@ -1,6 +1,60 @@
-*
-{
-  margin: 0;  
-  padding: 0;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+/*Zmiany dotyczące Headera*/
+.main-header {
+    background: tomato;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-header__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 200%;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav__list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.nav__item {
+    display: inline-block;
+}
+.nav__link {
+	color: brown;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition: all 0.5s ease-in-out;
+}
+.nav__link:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.nav__link--active {
+    color: #000;
 }
