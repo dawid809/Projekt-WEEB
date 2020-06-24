@@ -15,21 +15,21 @@
         <!-- 1-menu główne(logo, odwołania do przyszłych elementów) -->
         <header class="main-header">
             <div class="container main-header__conteiner">
-                <a class="logo" href="">
+                <a class="logo" href="index.html">
                     <span>ↁ〇Ꮆↁ</span>
                 </a>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item"><a class="nav__link nav__link--active" href="">Budowa</a></li>
-                        <li class="nav__item"><a class="nav__link" href="">Budowa</a></li>
-                        <li class="nav__item"><a class="nav__link" href="">Budowa</a></li>
-                        <li class="nav__item"><a class="nav__link" href="">Budowa</a></li>
+                        <li class="nav__item"><a class="nav__link nav__link--active" href="#about">O nas</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#list">Lista</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#news">Aktualności</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#footer">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <!-- 2-About(zawiera informacje o nas-firmie)-->
-        <section class="about">
+        <section class="about" id="about">
             <img class="about__img" src="./images/tlo3.png" alt="zdjęcie-tła">
             <div class="container">
                 <div class="about__caption">
@@ -42,7 +42,7 @@
         </section>
         <div class="row">
             <div class="column">
-                <h2 class="text1">Lorem</h2>
+                <h2 class="text1" id="list">Lorem</h2>
                 <h3 class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
                 <img src="./images/tlo3.png" alt="pies1" style="width:100%">
             </div>
@@ -67,7 +67,7 @@
                 </ul>
             </div>
         </section>
-        <section class="news">
+        <section class="news" id="news">
             <div class="news-news">
                 <p class="p_title">Aktualności</p>
                 <h4 class="news_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -80,7 +80,7 @@
                     Ipsum.</h4>
             </div>
         </section>
-        <footer>
+        <footer id="footer">
             <div class="footer_top">
             <form>
                 <p class="form_text">Kontakt z nami:</p>
