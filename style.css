@@ -205,6 +205,11 @@ li {
     padding: 8px;
     border-radius: 24px;
 }
+.footer_top input:focus {
+    width: 15%;
+    background: tan;
+}
+
 
 .text_area {
     padding: 8px;
@@ -217,3 +222,17 @@ li {
     padding: 10px;
     font-size: 200%;
 }
+         /*Animacje*/
+.p_title {
+    margin: 0px;
+    -webkit-transition: margin 1s ease;
+       -moz-transition: margin 1s ease;
+         -o-transition: margin 1s ease;
+        -ms-transition: margin 1s ease;
+            transition: margin 1s ease;
+  }
+   
+  .p_title:hover {
+    margin-left: -200px;
+  }
+

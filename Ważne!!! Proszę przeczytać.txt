@@ -1,0 +1,11 @@
+Projekt został stworzony we własnych celach, zawarte są w nim własne treści(zmyślone, niekoniecznie prawdziwe).
+
+Pod koniec projektu zmieniłem tekst "lorem" na własny, treściwy.
+
+W "Toogle device toolbar" responsywność jest prawidłowa dla szerokości min 325 px
+Po sprawdzeniu na końcu projektu walidator nie wskazał żadnego błędu w html jak i css-ie.
+
+
+
+P.S
+Jeśli bedą problemy ze zdjęciami to zapewne przez katogoli(przechowywalem wszystko we własnym folderze).
